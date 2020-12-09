@@ -57,9 +57,9 @@ inquirer
     const dataEmail = data.email;
     
 
-    fs.writeFileSync('README.md', "# "+ dataTitle +"\n"
+    fs.writeFileSync('README.md', "# "+ dataTitle +" \n "
     );
-    fs.writeFileSync("README.md","![" + dataTitle + "](./asset/image/snapshot.gif?raw=true'" + dataTitle + "')" 
+    fs.writeFileSync("README.md","![" + dataTitle + "](./asset/image/snapshot.gif?raw=true)\n" 
     );
     fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
     );
