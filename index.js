@@ -67,18 +67,19 @@ inquirer
     );
     fs.appendFileSync('README.md', "# To Test \n"+ dataTest+"\n"
     );
-    fs.appendFileSync('README.md', "# License \n"+ dataLicense + " \n "
-    );
-
+    
     if ( dataLicense === "Distributed under the MIT License.") {
-        fs.appendFileSync('README.md',"![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)\n")
+        fs.appendFileSync('README.md',"# License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)\n")
     }
     if ( dataLicense === "Distributed under the Apache License 2.0.") {
-        fs.appendFileSync('README.md',"![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)\n")
+        fs.appendFileSync('README.md',"# License ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)\n")
     }
     if ( dataLicense === "Distributed under the GNU General Public License v3.0.") {
-        fs.appendFileSync('README.md',"![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)(https://www.gnu.org/licenses/gpl-3.0)\n")
+        fs.appendFileSync('README.md',"# License ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)(https://www.gnu.org/licenses/gpl-3.0)\n")
     }
+    fs.appendFileSync('README.md', dataLicense + " \n "
+    );
+
 
     fs.appendFileSync('README.md', "# Contact \n"+ "Jaden Lee \n" + "Github UserName: " + dataGithub + "\n" 
     );
