@@ -63,12 +63,12 @@ inquirer
     fs.appendFileSync('README.md', "# Table of Contents\n");
     fs.appendFileSync("README.md", 
 
-    "![* About This Project](#about-this-project)\n" +
-    "![* installation](#installation)\n" +
-    "![* Contribution](#contribution)\n" +
-    "![* Test](#test)\n" +
-    "![* License](#license) \n " +
-    "![* Contact](#contact) \n " 
+    "**[About This Project](#about-this-project)**<br>" +
+    "**[installation](#installation)**<br>" +
+    "**[Contribution](#contribution)**<br>" +
+    "**[Test](#test)**<br>" +
+    "**[License](#license)**<br>" +
+    "**[Contact](#contact)**<br>" 
     );
 
     fs.appendFileSync("README.md","![" + dataTitle + "](./asset/image/snapshot.gif?raw=true)\n" 
@@ -92,7 +92,7 @@ inquirer
     }
  
 
-    fs.appendFileSync('README.md', "# Contact \n"+ "Jaden Lee \n" + "Github UserName: " + dataGithub + " \n " 
+    fs.appendFileSync('README.md', "# Contact \n"+ "Jaden Lee <br>" + "Github UserName: " + dataGithub + " <br>" 
     );
     fs.appendFileSync('README.md',  "E-mail: " + dataEmail + " \n "
     );
