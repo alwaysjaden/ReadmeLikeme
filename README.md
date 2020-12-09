@@ -1,15 +1,16 @@
 # Read me Generator
 # About This Project
-I need to do this do that and this 
+* it's Cool
 # installation
-install npm inquerier
+* Fork Pull
 # Contribution
-clone push request
+blah blah
 # To Test 
-run it
+like this
 # License 
 Distributed under the MIT License.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Contact 
 Jaden Lee 
- Github UserName: alwaysjaden@gmail.com
-E-mail: alwaysjaden
+Github UserName: alwaysjaden
+E-mail: alwaysjaden@gmail.com
