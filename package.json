@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alwaysjaden/ReadmeLikeme/issues"
   },
-  "homepage": "https://github.com/alwaysjaden/ReadmeLikeme#readme"
+  "homepage": "https://github.com/alwaysjaden/ReadmeLikeme#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
