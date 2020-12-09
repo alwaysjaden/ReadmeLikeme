@@ -63,12 +63,12 @@ inquirer
     fs.appendFileSync('README.md', "# Table of Contents\n");
     fs.appendFileSync("README.md", 
 
-    "![About This Project](https://github.com/alwaysjaden/ReadmeLikeme#about-this-project)\n " +
-    "![installation](https://github.com/alwaysjaden/ReadmeLikeme#installation)\n " +
-    "![Contribution](https://github.com/alwaysjaden/ReadmeLikeme#contribution)\n " +
-    "![Test](https://github.com/alwaysjaden/ReadmeLikeme#test)\n " +
-    "![License](https://github.com/alwaysjaden/ReadmeLikeme#license)\n " +
-    "![Contact](https://github.com/alwaysjaden/ReadmeLikeme#contact)\n " 
+    "![* About This Project](#about-this-project)\n" +
+    "![* installation](#installation)\n" +
+    "![* Contribution](#contribution)\n" +
+    "![* Test](#test)\n" +
+    "![* License](#license) \n " +
+    "![* Contact](#contact) \n " 
     );
 
     fs.appendFileSync("README.md","![" + dataTitle + "](./asset/image/snapshot.gif?raw=true)\n" 
