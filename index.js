@@ -57,8 +57,8 @@ inquirer
     const dataEmail = data.email;
     
 
-    fs.writeFileSync('README.md', "#"+ dataTitle +"\n"
-  );
+    fs.writeFileSync('README.md', "# "+ dataTitle +"\n"
+    );
     fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
     );
     fs.appendFileSync('README.md', "# installation\n"+ dataInstallation+"\n"
@@ -69,7 +69,7 @@ inquirer
     );
     fs.appendFileSync('README.md', "# License \n"+ dataLicense+"\n"
     );
-    fs.appendFileSync('README.md', "# Contact \n"+ "Jaden Lee \n Github UserName: " + dataGithub + "\n E-mail: " + dataEmail+"\n"
+    fs.appendFileSync('README.md', "# Contact \n"+ "Jaden Lee \n Github UserName: " + dataGithub + "\n" + "E-mail: " + dataEmail+"\n"
     );
 
 

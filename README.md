@@ -1,15 +1,15 @@
-#Read me Generator
+# Read me Generator
 # About This Project
-however you want like this 
+I need to do this do that and this 
 # installation
-do this do that
+install npm inquerier
 # Contribution
-clone branch push merge request
+clone push request
 # To Test 
-very well
+run it
 # License 
 Distributed under the MIT License.
 # Contact 
 Jaden Lee 
- Github UserName: alwaysjaden
- E-mail: alswysjaden@gmail.com
+ Github UserName: alwaysjaden@gmail.com
+E-mail: alwaysjaden
