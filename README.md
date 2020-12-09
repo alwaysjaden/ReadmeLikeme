@@ -1,17 +1,23 @@
-# asd 
- ![asd](./asset/image/snapshot.gif?raw=true)
+# Read Me Generator 
+ ![Read Me Generator](./asset/image/snapshot.gif?raw=true)
 # About This Project
-asd
+its cool
 # installation
-asda
+* npm inqurier
+ *fs module
+undefined
+undefined
 # Contribution
-sda2e 
+* Fork 
+  * clone 
+  * make branch  
+  * push 
  # To Test 
-asd
+npm test
 # License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
  Distributed under the MIT License.(https://opensource.org/licenses/MIT)
 # Contact 
 Jaden Lee 
-Github UserName: asdad 
- E-mail: asda 
+Github UserName: alwaysjaden 
+ E-mail: alwaysjaden@gmail.com 
  
