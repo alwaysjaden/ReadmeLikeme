@@ -1,16 +1,16 @@
-# Read me Generator
+# Ream Me Generator
 # About This Project
-* it's Cool
+Cool Project
 # installation
-* Fork Pull
+1- install NPM inqurier 
 # Contribution
-blah blah
-# To Test 
-like this
+fork clone branch push 
+ # To Test 
+well
 # License 
-Distributed under the MIT License.
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Distributed under the GNU General Public License v3.0. 
+ ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)(https://www.gnu.org/licenses/gpl-3.0)
 # Contact 
 Jaden Lee 
 Github UserName: alwaysjaden
-E-mail: alwaysjaden@gmail.com
+E-mail: alwysjaden@gmail.com
