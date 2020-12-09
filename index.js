@@ -67,9 +67,9 @@ inquirer
     );
     fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
     );
-    fs.appendFileSync('README.md', "# installation\n"+ dataInstallation[0]+"\n"+ dataInstallation[1]+"\n"+ dataInstallation[2]+"\n"+ dataInstallation[3]+"\n"
+    fs.appendFileSync('README.md', "# installation\n"+ dataInstallation[0] + " \n"+ dataInstallation[1] + " \n"+ dataInstallation[2]+ " \n"+ dataInstallation[3]+ " \n"
     );
-    fs.appendFileSync('README.md', "# Contribution\n"+ dataContribution[0] + " \n " + dataContribution[1] + " \n " + dataContribution[2] + " \n " + dataContribution[3] + " \n " 
+    fs.appendFileSync('README.md', "# Contribution\n"+ dataContribution[0] + " \n" + dataContribution[1] + " \n" + dataContribution[2] + " \n" + dataContribution[3] + " \n" 
     );
     fs.appendFileSync('README.md', "# To Test \n"+ dataTest+"\n"
     );
