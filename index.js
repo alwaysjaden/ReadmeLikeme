@@ -57,13 +57,20 @@ inquirer
     const dataEmail = data.email;
     
 
-   
-    fs.writeFileSync('README.md', JSON.stringify(data, null, '\n'), (err) =>
-      err ? console.log(err) : console.log('Success!')
-    );
-   
-    fs.appendFileSync('README.md', "Title is \n"+ dataTitle
+    fs.writeFileSync('README.md', "#"+ dataTitle +"\n"
   );
+    fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
+    );
+    fs.appendFileSync('README.md', "# installation\n"+ dataInstallation+"\n"
+    );
+    fs.appendFileSync('README.md', "# Contribution\n"+ dataContribution+"\n"
+    );
+    fs.appendFileSync('README.md', "# To Test \n"+ dataTest+"\n"
+    );
+    fs.appendFileSync('README.md', "# License \n"+ dataLicense+"\n"
+    );
+    fs.appendFileSync('README.md', "# Contact \n"+ "Jaden Lee \n Github UserName: " + dataGithub + "\n E-mail: " + dataEmail+"\n"
+    );
 
 
   });
