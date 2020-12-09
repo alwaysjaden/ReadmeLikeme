@@ -1,15 +1,16 @@
-![asdasdas](./asset/image/snapshot.gif?raw=true)
+# Read Me Generator 
+ ![Read Me Generator](./asset/image/snapshot.gif?raw=true)
 # About This Project
-dasdasd
+do it well
 # installation
-ad21eda
+bamm
 # Contribution
-asda 
+* for it 
  # To Test 
-adasd
+1 - yes
 # License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 Distributed under the MIT License.(https://opensource.org/licenses/MIT)
 # Contact 
 Jaden Lee 
-Github UserName: adasdas
-E-mail: asda.asda
+Github UserName: alwaysjaden
+E-mail: alwaysjaden@gmail.com
