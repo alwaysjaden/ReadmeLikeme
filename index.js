@@ -59,6 +59,8 @@ inquirer
 
     fs.writeFileSync('README.md', "# "+ dataTitle +"\n"
     );
+    fs.writeFileSync("README.md","![" + dataTitle + "](./asset/image/snapshot.gif?raw=true'" + dataTitle + "')" 
+    );
     fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
     );
     fs.appendFileSync('README.md', "# installation\n"+ dataInstallation+"\n"

@@ -1,15 +1,14 @@
-# asdasda
-# About This Project
-asdasd
+![Read Me Generator](./asset/image/snapshot.gif?raw=true'Read Me Generator')# About This Project
+Coot Project
 # installation
-adasd2
+* install NPM
 # Contribution
-eqasd 
+* fork * clone 
  # To Test 
-adad
-# License ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-Distributed under the Apache License 2.0.(https://opensource.org/licenses/Apache-2.0)
+well
+# License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+Distributed under the MIT License.(https://opensource.org/licenses/MIT)
 # Contact 
 Jaden Lee 
-Github UserName: asdasd
-E-mail: asdas
+Github UserName: alwaysjaden
+E-mail: alwaysjaden@gmail.com
