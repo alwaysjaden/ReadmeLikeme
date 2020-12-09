@@ -51,9 +51,6 @@ inquirer
     const dataDescription = data.description.split(",");
     const dataInstallation = data.installation.split(",");
     const dataContribution = data.contribution.split(",");
-    console.log(dataContribution[0]);
-    console.log(dataContribution[1]);
-    console.log(dataContribution[2]);
     const dataTest = data.test;
     const dataLicense = data.license;
     const dataGithub = data.github;
@@ -63,25 +60,35 @@ inquirer
     fs.writeFileSync('README.md', "# "+ dataTitle +" \n "
     );
 
+    fs.appendFileSync('README.md', "# Table of Contents\n");
+    fs.appendFileSync("README.md", 
+
+    "![About This Project](https://github.com/alwaysjaden/ReadmeLikeme#about-this-project)\n " +
+    "![installation](https://github.com/alwaysjaden/ReadmeLikeme#installation)\n " +
+    "![Contribution](https://github.com/alwaysjaden/ReadmeLikeme#contribution)\n " +
+    "![Test](https://github.com/alwaysjaden/ReadmeLikeme#test)\n " +
+    "![License](https://github.com/alwaysjaden/ReadmeLikeme#license)\n " +
+    "![Contact](https://github.com/alwaysjaden/ReadmeLikeme#contact)\n " 
+    );
+
     fs.appendFileSync("README.md","![" + dataTitle + "](./asset/image/snapshot.gif?raw=true)\n" 
     );
     fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
     );
-    fs.appendFileSync('README.md', "# installation\n"+ dataInstallation[0] + " \n"+ dataInstallation[1] + " \n"+ dataInstallation[2]+ " \n"+ dataInstallation[3]+ " \n"
-    );
+    fs.appendFileSync('README.md', "# installation\n"+ dataInstallation[0] + " \n"+ dataInstallation[1] + " \n"+ dataInstallation[2]+ " \n"+ dataInstallation[3]+ " \n" );
     fs.appendFileSync('README.md', "# Contribution\n"+ dataContribution[0] + " \n" + dataContribution[1] + " \n" + dataContribution[2] + " \n" + dataContribution[3] + " \n" 
     );
-    fs.appendFileSync('README.md', "# To Test \n"+ dataTest+"\n"
+    fs.appendFileSync('README.md', "# Test \n"+ dataTest+"\n"
     );
     
         if ( dataLicense === "Distributed under the MIT License.") {
-            fs.appendFileSync('README.md',"# License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)\n " + dataLicense + "(https://opensource.org/licenses/MIT)\n" )
+            fs.appendFileSync('README.md',"# License![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)\n " + dataLicense + "(https://opensource.org/licenses/MIT)\n" )
         }
         if ( dataLicense === "Distributed under the Apache License 2.0.") {
-            fs.appendFileSync('README.md',"# License ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)\n "+ dataLicense + "(https://opensource.org/licenses/Apache-2.0)\n")
+            fs.appendFileSync('README.md',"# License![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)\n "+ dataLicense + "(https://opensource.org/licenses/Apache-2.0)\n")
         }
         if ( dataLicense === "Distributed under the GNU General Public License v3.0.") {
-            fs.appendFileSync('README.md',"# License ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)\n " + dataLicense + "(https://www.gnu.org/licenses/gpl-3.0)\n" )
+            fs.appendFileSync('README.md',"# License![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)\n " + dataLicense + "(https://www.gnu.org/licenses/gpl-3.0)\n" )
     }
  
 
