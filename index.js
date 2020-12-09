@@ -45,3 +45,25 @@ inquirer
         name: 'email',
     },
   ])
+
+  .then((data) => {
+    const dataTitle = data.title;
+    const dataDescription = data.description;
+    const dataInstallation = data.installation;
+    const dataContribution = data.contribution;
+    const dataTest = data.test;
+    const dataLicense = data.license;
+    const dataGithub = data.github;
+    const dataEmail = data.email;
+    
+
+   
+    fs.writeFileSync('README.md', JSON.stringify(data, null, '\n'), (err) =>
+      err ? console.log(err) : console.log('Success!')
+    );
+   
+    fs.appendFileSync('README.md', "Title is \n"+ dataTitle
+  );
+
+
+  });
