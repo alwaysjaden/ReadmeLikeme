@@ -15,12 +15,12 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Tell me Installation Instruction',
+        message: 'Tell me Installation Instruction( Seperate Each Line with ", " )',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Tell me Details about Contibution Guidelines',
+        message: 'Tell me Details about Contibution Guidelines ( Seperate Each Line with ", " )',
         name: 'contribution',
     },
     {
@@ -99,7 +99,7 @@ inquirer
     }
  
 
-    fs.appendFileSync('README.md', "# Contact \n"+ "## Jaden Lee \n" + "Github UserName: " + dataGithub + " <br>\n" 
+    fs.appendFileSync('README.md', "# Contact \n"+ "Please Contact [Jaden Lee] for additional Question \n" + "Github UserName: " + dataGithub + " <br>\n" 
     );
     fs.appendFileSync('README.md',  "E-mail: " + dataEmail + " \n "
     );
