@@ -48,9 +48,9 @@ inquirer
 
   .then((data) => {
     const dataTitle = data.title;
-    const dataDescription = data.description.split(",");
-    const dataInstallation = data.installation.split(",");
-    const dataContribution = data.contribution.split(",");
+    const dataDescription = data.description.split(", ");
+    const dataInstallation = data.installation.split(", ");
+    const dataContribution = data.contribution.split(", ");
     const dataTest = data.test;
     const dataLicense = data.license;
     const dataGithub = data.github;
@@ -68,15 +68,23 @@ inquirer
         "**[Contribution](#contribution)**<br>" +
         "**[Test](#test)**<br>" +
         "**[License](#license)**<br>" +
-        "**[Contact](#contact)**<br>" 
+        "**[Contact](#contact)**<br>\n" 
     );
-
-    
     fs.appendFileSync('README.md', "# About This Project\n"+ dataDescription+"\n"
     );
-    fs.appendFileSync('README.md', "# installation\n"+ dataInstallation[0] + " \n"+ dataInstallation[1] + " \n"+ dataInstallation[2]+ " \n"+ dataInstallation[3]+ " \n" );
-    fs.appendFileSync('README.md', "# Contribution\n"+ dataContribution[0] + " \n" + dataContribution[1] + " \n" + dataContribution[2] + " \n" + dataContribution[3] + " \n" 
+    fs.appendFileSync('README.md', "# installation\n"
     );
+    for ( let i =0; i<dataInstallation.length; i++) {
+        fs.appendFileSync('README.md',dataInstallation[i]+"\n")
+        }
+    
+    fs.appendFileSync('README.md', "# Contribution\n" 
+    );
+
+    for ( let i =0; i<dataContribution.length; i++) {
+        fs.appendFileSync('README.md',dataContribution[i]+"\n")
+        }
+
     fs.appendFileSync('README.md', "# Test \n"+ dataTest+"\n"
     );
     
@@ -91,9 +99,9 @@ inquirer
     }
  
 
-    fs.appendFileSync('README.md', "# Contact \n"+ "## Jaden Lee <br>" + "## Github UserName: " + dataGithub + " <br>" 
+    fs.appendFileSync('README.md', "# Contact \n"+ "## Jaden Lee \n" + "Github UserName: " + dataGithub + " <br>\n" 
     );
-    fs.appendFileSync('README.md',  "## E-mail: " + dataEmail + " \n "
+    fs.appendFileSync('README.md',  "E-mail: " + dataEmail + " \n "
     );
 
 

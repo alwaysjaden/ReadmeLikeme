@@ -1,22 +1,23 @@
-# Read Me Generator 
- ![Read Me Generator](./asset/image/snapshot.gif?raw=true)
+# Read Me generator 
+ ![Read Me generator](./asset/image/snapshot.gif?raw=true)
 # Table of Contents
-**[About This Project](#about-this-project)**<br>**[installation](#installation)**<br>**[Contribution](#contribution)**<br>**[Test](#test)**<br>**[License](#license)**<br>**[Contact](#contact)**<br># About This Project
-it's cool
+**[About This Project](#about-this-project)**<br>**[installation](#installation)**<br>**[Contribution](#contribution)**<br>**[Test](#test)**<br>**[License](#license)**<br>**[Contact](#contact)**<br>
+# About This Project
+this is cool Project
 # installation
-* install NPM 
- Install 
-undefined 
-undefined 
+* Install NPM
+* Install fs
 # Contribution
-* fork 
-* clone 
- * branch 
-* push 
+* fork
+* Clone
+* Branch
+* Push
 # Test 
-npm test
+test npm
 # License![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
  Distributed under the MIT License.(https://opensource.org/licenses/MIT)
 # Contact 
-## Jaden Lee <br>## Github UserName: alwaysjaden <br>## E-mail: alwaysjaden@gmail.com 
+## Jaden Lee 
+Github UserName: alwaysjaden <br>
+E-mail: alswysjaden@gmail.com 
  
