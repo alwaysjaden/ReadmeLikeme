@@ -82,7 +82,7 @@ inquirer
     );
 
     for ( let i =0; i<dataContribution.length; i++) {
-        fs.appendFileSync('README.md',dataContribution[i]+"<br>")
+        fs.appendFileSync('README.md',dataContribution[i]+"<br>\n")
         }
 
     fs.appendFileSync('README.md', "# Test \n"+ dataTest+"\n"

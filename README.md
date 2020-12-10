@@ -8,12 +8,17 @@ Creating an Application that can quickly create a professional README for a new 
 * Install npm
 * install rpm Inquirer
 # Contribution
-1 - Folk the Project<br>2 - Create Your Feature Branch (git Checkout -b YourBranch)<br>3 - Commit Your Changes( Git Commit -m "Any Change you made on this Branch”)<br>4 - Push to the Branch ( git push origin YourBranch)<br>5 - Open a Pull Request <br># Test 
+1 - Folk the Project<br>
+2 - Create Your Feature Branch (git Checkout -b YourBranch)<br>
+3 - Commit Your Changes( Git Commit -m "Any Change you made on this Branch”)<br>
+4 - Push to the Branch ( git push origin YourBranch)<br>
+5 - Open a Pull Request <br>
+# Test 
 run node index.js and see README.MD has been updated 
 # License
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) Distributed under the MIT License.(https://opensource.org/licenses/MIT)
 # Contact 
 Please Contact [Jaden Lee] for additional Question 
-Github UserName: alwaysjaden <br>
+Github UserName: alwayjaden <br>
 E-mail: alwaysjaden@gmail.com 
  
