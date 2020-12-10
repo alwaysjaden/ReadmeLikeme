@@ -99,7 +99,7 @@ inquirer
     }
  
 
-    fs.appendFileSync('README.md', "# Contact \n"+ "Please Contact [Jaden Lee] for additional Question \n" + "Github UserName: " + dataGithub + " <br>\n" 
+    fs.appendFileSync('README.md', "# Contact \n"+ "Please Contact [Jaden Lee] for additional Question <br>\n" + "Github UserName: " + dataGithub + " <br>\n" 
     );
     fs.appendFileSync('README.md',  "E-mail: " + dataEmail + " \n "
     );

@@ -6,7 +6,7 @@
 Creating an Application that can quickly create a professional README for a new project,using Node.js and Terminal Command Line. Application needs to ask series of question that will fill-in to each section of README. Using [NPM Inquirer Package] user will input context of each section,and choose Licensing information,and application will display corresponding badge of that license.  Application also need to guide to correct section by clicking title on Table of Contents.
 # installation
 * Install npm
-* install rpm Inquirer
+* install npm Inquirer
 # Contribution
 1 - Folk the Project<br>
 2 - Create Your Feature Branch (git Checkout -b YourBranch)<br>
@@ -14,11 +14,11 @@ Creating an Application that can quickly create a professional README for a new 
 4 - Push to the Branch ( git push origin YourBranch)<br>
 5 - Open a Pull Request <br>
 # Test 
-run node index.js and see README.MD has been updated 
+Manual Testing Only via run application and check README.md File for the Change.
 # License
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) Distributed under the MIT License.(https://opensource.org/licenses/MIT)
 # Contact 
-Please Contact [Jaden Lee] for additional Question 
-Github UserName: alwayjaden <br>
+Please Contact [Jaden Lee] for additional Question <br>
+Github UserName: alwaysjaden <br>
 E-mail: alwaysjaden@gmail.com 
  
